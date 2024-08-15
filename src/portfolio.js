@@ -18,8 +18,10 @@ const illustration = {
 const greeting = {
   username: "Wyatt Scott",
   title: "Hi there, I'm Wyatt...",
-  subTitle: ("I'm a Data Scientist passionate about deep learning, automation, and geopolitics, among myriad other things."),
-  resumeLink: "https://drive.google.com/file/d/1AXgGh33CQqiEeE3HVvmp57UpFdl626fb/view?usp=drive_link", // Set to empty to hide the button
+  subTitle:
+    "I'm a Data Scientist passionate about deep learning, automation, and geopolitics, among myriad other things.",
+  resumeLink:
+    "https://drive.google.com/file/d/1AXgGh33CQqiEeE3HVvmp57UpFdl626fb/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -39,9 +41,9 @@ const skillsSection = {
   title: "Tech Skills",
   subTitle: "",
   skills: [
-    ("- Develop interactive Front end / User Interfaces for workflow automation tools and machinge learning models."),
-    ("- Build, test, validate, and deploy predictive models."),
-    ("- Review code and work in teams to achieve business outcomes.")
+    "- Develop interactive Front end / User Interfaces for workflow automation tools and machinge learning models.",
+    "- Build, test, validate, and deploy predictive models.",
+    "- Review code and work in teams to achieve business outcomes."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -194,7 +196,7 @@ const workExperiences = {
         "Provided research support and planned events.",
         "Wrote articles on commodities trade and U.S.-China competition."
       ]
-    },
+    }
   ]
 };
 
@@ -246,7 +248,8 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Associate Data Scientist",
-      subtitle: "Demonstrated proficiency in data management, EDA, modeling, programming, statistical experimentation, and communication and visualization.",
+      subtitle:
+        "Demonstrated proficiency in data management, EDA, modeling, programming, statistical experimentation, and communication and visualization.",
       image: require("./assets/images/dcamp.png"),
       imageAlt: "DataCamp",
       footerLink: [
@@ -262,18 +265,19 @@ const achievementSection = {
     },
     {
       title: "Dean's Scholar Award",
-      subtitle: "Recognized for a high level of academic achievement, community engagement, and potential contribution to my academic field of study.",
+      subtitle:
+        "Recognized for a high level of academic achievement, community engagement, and potential contribution to my academic field of study.",
       image: require("./assets/images/au_square.png"),
       imageAlt: "American University",
       footerLink: [
-          {
-              name: "Award Letter",
-              url: "https://drive.google.com/file/d/1U-AD-RWpB9TPrBuz0Co9g56Ubo4diw5N/view?usp=sharing"
-          },
-          {
-              name: "American University",
-              url: "https://www.american.edu/"
-          }
+        {
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/1U-AD-RWpB9TPrBuz0Co9g56Ubo4diw5N/view?usp=sharing"
+        },
+        {
+          name: "American University",
+          url: "https://www.american.edu/"
+        }
       ]
     }
   ],
@@ -289,14 +293,12 @@ const blogSection = {
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     },
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -324,9 +326,7 @@ const podcastSection = {
   subtitle: "",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-      ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
