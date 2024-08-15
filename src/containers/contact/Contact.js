@@ -8,7 +8,7 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
