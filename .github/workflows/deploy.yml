@@ -28,10 +28,15 @@ jobs:
       - name: Update npm 🚀
         run: npm install -g npm@latest
 
+      - name: List root firectory files
+        run: ls -al
+
       - name: Install and Build 🔧 # Build the Project
         run: |
           npm install
           npm run build
+        working-directory: .
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
