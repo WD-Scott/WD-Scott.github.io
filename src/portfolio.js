@@ -267,7 +267,7 @@ const achievementSection = {
       title: "Dean's Scholar Award",
       subtitle:
         "Recognized for a high level of academic achievement, community engagement, and potential contribution to my academic field of study.",
-      image: require("./assets/images/au_square.png"),
+      image: require("./assets/images/AU_logo.jpg"),
       imageAlt: "American University",
       footerLink: [
         {
