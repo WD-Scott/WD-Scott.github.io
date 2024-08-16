@@ -38,8 +38,8 @@
 }
 
 .greeting-text {
-  font-size: 70px;
-  line-height: 1.1;
+  font-size: 60px;
+  line-height: 1.2;
   color: $textColor !important;
 }
 
@@ -50,6 +50,8 @@
 
 .greeting-image-div > img {
   max-width: 100%;
+  margin-left: 300px;
+  margin-top: 25px;
   height: auto;
   align-items: right;
   justify-content: right;
