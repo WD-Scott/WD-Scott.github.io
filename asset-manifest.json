@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aa65a00a.css",
-    "main.js": "/static/js/main.9c400a10.js",
+    "main.js": "/static/js/main.1ae8b6e7.js",
     "static/css/64.57320fe4.chunk.css": "/static/css/64.57320fe4.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.9feb949d.chunk.css": "/static/css/769.9feb949d.chunk.css",
@@ -11,13 +11,13 @@
     "static/media/mlcycle.png": "/static/media/mlcycle.0efeb1ba8de92410bd32.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/resume.pdf": "/static/media/resume.35a2686f6814c7d724dd.pdf",
-    "static/media/au_square.png": "/static/media/au_square.8b57d7608785cab336ba.png",
     "static/media/dcamp.png": "/static/media/dcamp.273c90d02b16a1fb23c2.png",
+    "static/media/AU_logo.jpg": "/static/media/AU_logo.3e02e174ca38f7423c28.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.aa65a00a.css.map": "/static/css/main.aa65a00a.css.map",
-    "main.9c400a10.js.map": "/static/js/main.9c400a10.js.map",
+    "main.1ae8b6e7.js.map": "/static/js/main.1ae8b6e7.js.map",
     "64.57320fe4.chunk.css.map": "/static/css/64.57320fe4.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.9feb949d.chunk.css.map": "/static/css/769.9feb949d.chunk.css.map",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.aa65a00a.css",
-    "static/js/main.9c400a10.js"
+    "static/js/main.1ae8b6e7.js"
   ]
 }
