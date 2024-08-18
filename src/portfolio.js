@@ -41,7 +41,7 @@ const skillsSection = {
   title: "Tech Skills",
   subTitle: "",
   skills: [
-    "- Develop interactive Front end / User Interfaces for workflow automation tools and machinge learning models.",
+    "- Develop interactive front end / user interfaces for workflow automation tools and machinge learning models.",
     "- Build, test, validate, and deploy predictive models.",
     "- Review code and work in teams to achieve business outcomes."
   ],
@@ -156,7 +156,7 @@ const workExperiences = {
     {
       role: "Graduate TA and Grader",
       company: "UVA School of \n\n Data Science",
-      date: "May 2024 – Aug. 2024",
+      date: "May 2024 – August 2024",
       descBullets: [
         "Supported graduate students with coding assignments.",
         "Evaluated and graded lab reports."
@@ -174,9 +174,9 @@ const workExperiences = {
     {
       role: "Senior Research Associate",
       company: "New America \n\n Resource Security",
-      date: "June 2021 – Feb. 2022",
+      date: "June 2021 – Febuary 2022",
       descBullets: [
-        "Managed and led a scenario-based project in collaboration with DARPA’s World Modelers Program to test a conflict causality model, CauseMos."
+        "Led a scenario-based project in collaboration with DARPA’s World Modelers Program to test a conflict causality model, CauseMos."
       ]
     },
     {
