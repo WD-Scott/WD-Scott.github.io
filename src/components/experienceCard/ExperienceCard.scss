@@ -31,7 +31,7 @@
   -o-filter: blur(0px);
   -ms-filter: blur(0px);
   filter: blur(0px);
-  height: 9rem;
+  height: 8rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -55,7 +55,7 @@
 .experience-div-company {
   position: absolute;
   background: transparent;
-  height: 9rem;
+  height: 8rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -69,7 +69,7 @@
   padding: 1.1rem;
   margin: 0;
   color: $lightBackground1;
-  font-size: 25px;
+  font-size: 21px !important;
   text-align: center;
   font-weight: 700;
   text-overflow: ellipsis;
@@ -80,8 +80,8 @@
 .experience-text-role {
   text-align: left;
   color: $textColor;
-  font-weight: 900;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 19px !important;
   margin: 0px;
   padding-top: 0.1rem;
   line-height: normal;
@@ -94,10 +94,10 @@
 .experience-text-date {
   text-align: left;
   color: $textColor;
-  font-size: 19px;
+  font-size: 18px;
   margin: 0px;
   padding-top: 1rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .experience-text-desc {
