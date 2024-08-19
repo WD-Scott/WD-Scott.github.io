@@ -13,8 +13,7 @@ export default function Footer() {
           {emoji("")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          <a href="">
-          </a>
+          <a href=""></a>
         </p>
       </div>
     </Fade>
