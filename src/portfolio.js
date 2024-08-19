@@ -19,7 +19,7 @@ const greeting = {
   username: "Wyatt Scott",
   title: "Hi there, I'm Wyatt...",
   subTitle:
-    "I'm a Data Scientist passionate about deep learning, automation, and geopolitics, among myriad other things.",
+    "I'm a Data Scientist passionate about machine learning, automation, and geopolitics, among myriad other things.",
   resumeLink:
     "https://drive.google.com/file/d/1AXgGh33CQqiEeE3HVvmp57UpFdl626fb/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -41,9 +41,9 @@ const skillsSection = {
   title: "Tech Skills",
   subTitle: "",
   skills: [
-    "- Develop interactive front end / user interfaces for workflow automation tools and machinge learning models.",
+    "- Develop interactive user-interfaces for workflow automation tools and ML models.",
     "- Build, test, validate, and deploy predictive models.",
-    "- Review code and work in teams to achieve business outcomes."
+    "- Review code and work in teams to achieve goals."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -136,7 +136,7 @@ const workExperiences = {
   experience: [
     {
       role: "Lead Editor",
-      company: "S&P Global \n\n Market Intelligence",
+      company: "S&P Global \n Market Intelligence",
       date: "July 2023 – Present",
       descBullets: [
         "Develop Python code and GUIs to automate repetitive tasks.",
@@ -146,7 +146,7 @@ const workExperiences = {
     },
     {
       role: "Research Editor",
-      company: "S&P Global \n\n Market Intelligence",
+      company: "S&P Global \n Market Intelligence",
       date: "March 2022 – June 2023",
       descBullets: [
         "Managed multiple, simultaneous editorial and research workflows.",
@@ -155,7 +155,7 @@ const workExperiences = {
     },
     {
       role: "Graduate TA and Grader",
-      company: "UVA School of \n\n Data Science",
+      company: "UVA School of \n Data Science",
       date: "May 2024 – August 2024",
       descBullets: [
         "Supported graduate students with coding assignments.",
@@ -164,7 +164,7 @@ const workExperiences = {
     },
     {
       role: "Nonresident Fellow",
-      company: "Center for \n\n Climate & Security",
+      company: "Center for \n Climate & Security",
       date: "March 2022 – July 2022",
       descBullets: [
         "Co-wrote a report on climate change, security, and NATO.",
@@ -173,7 +173,7 @@ const workExperiences = {
     },
     {
       role: "Senior Research Associate",
-      company: "New America \n\n Resource Security",
+      company: "New America \n Resource Security",
       date: "June 2021 – February 2022",
       descBullets: [
         "Led a scenario-based project in collaboration with DARPA’s World Modelers Program to test a conflict causality model, CauseMos."
@@ -181,7 +181,7 @@ const workExperiences = {
     },
     {
       role: "Research Associate",
-      company: "New America \n\n Resource Security",
+      company: "New America \n Resource Security",
       date: "June 2019 – May 2021",
       descBullets: [
         "Developed a multivariate index measuring the U.S. and China’s global influence.",
@@ -190,7 +190,7 @@ const workExperiences = {
     },
     {
       role: "Research Assistant",
-      company: "New America \n\n Resource Security",
+      company: "New America \n Resource Security",
       date: "June 2018 – May 2019",
       descBullets: [
         "Provided research support and planned events.",
