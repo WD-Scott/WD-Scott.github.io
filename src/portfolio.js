@@ -41,7 +41,7 @@ const skillsSection = {
   title: "Tech Skills",
   subTitle: "",
   skills: [
-    "- Develop interactive user-interfaces for workflow automation tools and ML models.",
+    "- Develop interactive UIs for workflow automation tools and ML models.",
     "- Build, test, validate, and deploy predictive models.",
     "- Review code and work in teams to achieve goals."
   ],
