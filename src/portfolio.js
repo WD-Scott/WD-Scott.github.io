@@ -291,7 +291,7 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://www.linkedin.com/newsletters/s-p-global-daily-update-6884871524902346752/",
+      url: "https://www.linkedin.com/pulse/daily-update-power-ai-tech-commodities-spglobal-4bmmc/?trackingId=n1CgUHa0RvqD4ya31JBJaQ%3D%3D",
       title: "Power of AI - Tech and Commodities.",
       description: "S&P Global's Daily Update (22 November 2023)."
     },
