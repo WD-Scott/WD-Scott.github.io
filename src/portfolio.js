@@ -41,7 +41,7 @@ const skillsSection = {
   title: "Tech Skills",
   subTitle: "",
   skills: [
-    "- Develop interactive UIs for workflow automation tools and ML models.",
+    "- Develop interactive user-interfaces for workflow automation tools and ML models.",
     "- Build, test, validate, and deploy predictive models.",
     "- Review code and work in teams to achieve goals."
   ],
@@ -286,22 +286,32 @@ const achievementSection = {
 
 // Blogs Section
 const blogSection = {
-  title: "Blogs",
+  title: "Select Published Works",
   subtitle: "",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "",
-      title: "",
-      description: ""
+      url: "https://www.linkedin.com/newsletters/s-p-global-daily-update-6884871524902346752/",
+      title: "Power of AI - Tech and Commodities.",
+      description: "S&P Global's Daily Update (22 November 2023)."
     },
     {
-      url: "",
-      title: "",
-      description: ""
+      url: "https://www.linkedin.com/pulse/daily-update-sourcing-battery-metals-amid-energy-transition/",
+      title: "Sourcing Battery Metals Amid the Energy Transition.",
+      description: "S&P Global's Daily Update (3 April 2023).",
+    },
+    {
+      url: "https://slate.com/technology/2020/11/climate-change-midwest-agriculture-emissions.html",
+      title: "The U.S. Fight Against Climate Change Has to Start at Its Center: The Midwest.",
+      description: "Slate Magazine (18 February 2021)."
+    },
+    {
+      url: "https://www.newamerica.org/resource-security/reports/great-power-resource-competition-changing-climate/",
+      title: "Great Power Resource Competition in a Changing Climate: New America's Natural Security Index",
+      description: "New America (23 October 2019)."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
