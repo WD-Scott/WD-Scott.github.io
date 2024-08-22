@@ -1,14 +1,23 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
-
+import { SiTensorflow } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { FaRProject } from "react-icons/fa";
+import { FaLinux } from "react-icons/fa";
+import { SiScikitlearn } from "react-icons/si";
+import { SiPandas } from "react-icons/si";
+import { SiNumpy } from "react-icons/si";
+import { SiPytorch } from "react-icons/si";
+import { SiKeras } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { SiSqlite } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
+import { TbBrandSnowflake } from "react-icons/tb";
+import { TbBrandDatabricks } from "react-icons/tb";
+import { FaAws } from "react-icons/fa";
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
-// Splash Screen
-const splashScreen = {
-  enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
-};
 
 // Summary And Greeting Section
 const illustration = {
@@ -51,38 +60,74 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
+      icon: <FaPython />
     },
     {
       skillName: "R",
-      fontAwesomeClassname: "fa fa-registered"
+      icon: <FaRProject />
     },
     {
       skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
+      icon: <FaLinux />
+    },
+    {
+      skillName: "Scikit-learn",
+      icon: <SiScikitlearn />
+    },
+    {
+      skillName: "Pandas",
+      icon: <SiPandas />
+    },
+    {
+      skillName: "NumPy",
+      icon: <SiNumpy />
+    },
+    {
+      skillName: "PyTorch",
+      icon: <SiPytorch />
+    },
+    {
+      skillName: "TensorFlow",
+      icon: <SiTensorflow />
+    },
+    {
+      skillName: "Keras",
+      icon: <SiKeras />
     },
     {
       skillName: "GitHub",
-      fontAwesomeClassname: "fab fa-github"
+      icon: <FaGithub />
     },
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      icon: <FaHtml5 />
     },
     {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "SQLite",
+      icon: <SiSqlite />
+    },
+    {
+      skillName: "MySQL",
+      icon: <GrMysql />
+    },
+    {
+      skillName: "PostGres",
+      icon: <BiLogoPostgresql />
     },
     {
       skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
+      icon: <FaAws />
+    },
+    {
+      skillName: "Databricks",
+      icon: <TbBrandDatabricks />
     },
     {
       skillName: "Snowflake",
-      fontAwesomeClassname: "fas fa-snowflake"
+      icon: <TbBrandSnowflake />
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
