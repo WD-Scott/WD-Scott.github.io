@@ -118,7 +118,7 @@ https://fontawesome.com/icons?d=gallery */
       icon: <GrMysql />
     },
     {
-      skillName: "PostGres",
+      skillName: "Postgres",
       icon: <BiLogoPostgresql />
     },
     {
