@@ -1,21 +1,21 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
-import { SiTensorflow } from "react-icons/si";
-import { FaPython } from "react-icons/fa";
-import { FaRProject } from "react-icons/fa";
-import { FaLinux } from "react-icons/fa";
-import { SiScikitlearn } from "react-icons/si";
-import { SiPandas } from "react-icons/si";
-import { SiNumpy } from "react-icons/si";
-import { SiPytorch } from "react-icons/si";
-import { SiKeras } from "react-icons/si";
-import { FaGithub } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { SiSqlite } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { GrMysql } from "react-icons/gr";
-import { TbBrandSnowflake } from "react-icons/tb";
-import { TbBrandDatabricks } from "react-icons/tb";
-import { FaAws } from "react-icons/fa";
+import {SiTensorflow} from "react-icons/si";
+import {FaPython} from "react-icons/fa";
+import {FaRProject} from "react-icons/fa";
+import {FaLinux} from "react-icons/fa";
+import {SiScikitlearn} from "react-icons/si";
+import {SiPandas} from "react-icons/si";
+import {SiNumpy} from "react-icons/si";
+import {SiPytorch} from "react-icons/si";
+import {SiKeras} from "react-icons/si";
+import {FaGithub} from "react-icons/fa";
+import {FaHtml5} from "react-icons/fa";
+import {SiSqlite} from "react-icons/si";
+import {BiLogoPostgresql} from "react-icons/bi";
+import {GrMysql} from "react-icons/gr";
+import {TbBrandSnowflake} from "react-icons/tb";
+import {TbBrandDatabricks} from "react-icons/tb";
+import {FaAws} from "react-icons/fa";
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -350,16 +350,18 @@ const blogSection = {
     {
       url: "https://www.linkedin.com/pulse/daily-update-sourcing-battery-metals-amid-energy-transition/",
       title: "Sourcing Battery Metals Amid the Energy Transition.",
-      description: "S&P Global's Daily Update (3 April 2023).",
+      description: "S&P Global's Daily Update (3 April 2023)."
     },
     {
       url: "https://slate.com/technology/2020/11/climate-change-midwest-agriculture-emissions.html",
-      title: "The U.S. Fight Against Climate Change Has to Start at Its Center: The Midwest.",
+      title:
+        "The U.S. Fight Against Climate Change Has to Start at Its Center: The Midwest.",
       description: "Slate Magazine (18 February 2021)."
     },
     {
       url: "https://www.newamerica.org/resource-security/reports/great-power-resource-competition-changing-climate/",
-      title: "Great Power Resource Competition in a Changing Climate: New America's Natural Security Index",
+      title:
+        "Great Power Resource Competition in a Changing Climate: New America's Natural Security Index",
       description: "New America (23 October 2019)."
     }
   ],
