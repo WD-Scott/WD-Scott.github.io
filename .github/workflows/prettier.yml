@@ -23,10 +23,10 @@ jobs:
       - name: Install 🔧 # Install dependencies
         run: |
           npm install
-        working-directory: .
+        #working-directory: .
       
       - name: Check Format
         run: |
           npm run check-format
-        working-directory: .
+        #working-directory: .
 
