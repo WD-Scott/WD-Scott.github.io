@@ -46,7 +46,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/WD-Scott",
   linkedin: "https://www.linkedin.com/in/wyatt--scott/",
-  gmail: "wyatt.d.scott28@gmail.com",
+  gmail: "wyattscott298@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -406,7 +406,7 @@ const resumeSection = {
 const contactInfo = {
   title: "Contact:",
   number: "(484) 925-8722",
-  email_address: "wyatt.d.scott28@gmail.com"
+  email_address: "wyattscott298@gmail.com"
 };
 
 // Twitter Section
