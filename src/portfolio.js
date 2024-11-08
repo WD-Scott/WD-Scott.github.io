@@ -187,6 +187,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Analyst \n (Quantitative Modeling)",
+      company: "S&P Global \n Ratings",
+      date: "November 2024 – Present",
+      descBullets: [
+        "Develop models used in ratings analyses and research reports.",
+        "Create apps and dashboards that utilize models, tools, and big data.",
+        "Write clear specs and documentation to facilitate reproducibility."
+      ]
+    },
+    {
       role: "Lead Editor",
       company: "S&P Global \n Market Intelligence",
       date: "July 2023 – Present",
