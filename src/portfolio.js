@@ -353,6 +353,11 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
+      url: "https://arxiv.org/abs/2412.08868#",
+      title: "Words of War: Exploring the Presidential Rhetorical Arsenal with Deep Learning.",
+      description: "Arxiv, Computer Science —> Machine Learning (12 December 2024)."
+    },
+    {
       url: "https://www.linkedin.com/pulse/daily-update-power-ai-tech-commodities-spglobal-4bmmc?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3B%2FqRFgWhYQlyMlDNqmhd9%2Fg%3D%3D",
       title: "Power of AI - Tech and Commodities.",
       description: "S&P Global's Daily Update (22 November 2023)."
