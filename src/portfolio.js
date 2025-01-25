@@ -1,4 +1,4 @@
-// To change portfolio colors globally go to the  _globalColor.scss file
+i// To change portfolio colors globally go to the  _globalColor.scss file
 import {SiTensorflow} from "react-icons/si";
 import {FaPython} from "react-icons/fa";
 import {FaRProject} from "react-icons/fa";
@@ -199,7 +199,7 @@ const workExperiences = {
     {
       role: "Lead Editor",
       company: "S&P Global \n Market Intelligence",
-      date: "July 2023 – Present",
+      date: "July 2023 – October 2024",
       descBullets: [
         "Develop Python code and GUIs to automate repetitive tasks.",
         "Contributing author — S&P Global’s Daily Update.",
