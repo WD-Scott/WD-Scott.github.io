@@ -1,4 +1,4 @@
-i// To change portfolio colors globally go to the  _globalColor.scss file
+// To change portfolio colors globally go to the  _globalColor.scss file
 import {SiTensorflow} from "react-icons/si";
 import {FaPython} from "react-icons/fa";
 import {FaRProject} from "react-icons/fa";
