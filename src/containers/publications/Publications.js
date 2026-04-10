@@ -37,11 +37,7 @@ export default function Publications() {
           <div className="publications-list">
             {publicationsSection.publications.map((card, i) => {
               return (
-                <PublicationCard
-                  key={i}
-                  isDark={isDark}
-                  publication={card}
-                />
+                <PublicationCard key={i} isDark={isDark} publication={card} />
               );
             })}
           </div>

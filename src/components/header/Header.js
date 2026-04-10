@@ -30,7 +30,12 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" aria-label="Toggle navigation menu" />
+        <input
+          className="menu-btn"
+          type="checkbox"
+          id="menu-btn"
+          aria-label="Toggle navigation menu"
+        />
         <label
           className="menu-icon"
           htmlFor="menu-btn"

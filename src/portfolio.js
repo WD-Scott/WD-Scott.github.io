@@ -206,7 +206,8 @@ const publicationsSection = {
     {
       title:
         "Words of War: Exploring the Presidential Rhetorical Arsenal with Deep Learning.",
-      subtitle: "Arxiv, Computer Science — Machine Learning (12 December 2024).",
+      subtitle:
+        "Arxiv, Computer Science — Machine Learning (12 December 2024).",
       image: "",
       imageAlt: "",
       footerLink: [
