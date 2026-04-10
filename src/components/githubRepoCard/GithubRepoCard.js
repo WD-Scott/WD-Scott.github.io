@@ -1,6 +1,6 @@
 import React from "react";
 import "./GithubRepoCard.scss";
-import {Fade} from "react-reveal";
+import FadeIn from "../fadeIn/FadeIn";
 import {formatFileSizeDisplay} from "../../utils";
 
 export default function GithubRepoCard({repo, isDark}) {
@@ -14,19 +14,27 @@ export default function GithubRepoCard({repo, isDark}) {
   }
 
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <FadeIn>
       <div>
         <div
           className={isDark ? "dark-card-mode repo-card-div" : "repo-card-div"}
           key={repo.node.id}
           onClick={() => openUrlInNewTab(repo.node.url, repo.node.name)}
+          onKeyDown={e => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              openUrlInNewTab(repo.node.url, repo.node.name);
+            }
+          }}
+          role="link"
+          tabIndex={0}
+          aria-label={`View ${repo.node.name} on GitHub`}
         >
           <div className="repo-name-div">
             <svg
               aria-hidden="true"
               className="octicon repo-svg"
               height="20"
-              role="img"
               viewBox="0 0 12 16"
               width="14"
             >
@@ -54,7 +62,6 @@ export default function GithubRepoCard({repo, isDark}) {
                   aria-hidden="true"
                   className="octicon repo-star-svg"
                   height="20"
-                  role="img"
                   viewBox="0 0 10 16"
                   width="12"
                   fill="rgb(106, 115, 125)"
@@ -71,7 +78,6 @@ export default function GithubRepoCard({repo, isDark}) {
                   aria-hidden="true"
                   className="octicon repo-star-svg"
                   height="20"
-                  role="img"
                   viewBox="0 0 14 16"
                   width="14"
                   fill="rgb(106, 115, 125)"
@@ -90,6 +96,6 @@ export default function GithubRepoCard({repo, isDark}) {
           </div>
         </div>
       </div>
-    </Fade>
+    </FadeIn>
   );
 }

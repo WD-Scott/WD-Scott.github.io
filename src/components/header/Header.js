@@ -8,9 +8,8 @@ import {
   workExperiences,
   skillsSection,
   openSource,
-  blogSection,
-  talkSection,
   achievementSection,
+  publicationsSection,
   resumeSection
 } from "../../portfolio";
 
@@ -20,8 +19,7 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
-  const viewTalks = talkSection.display;
+  const viewPublications = publicationsSection.display;
   const viewResume = resumeSection.display;
 
   return (
@@ -32,7 +30,7 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <input className="menu-btn" type="checkbox" id="menu-btn" aria-label="Toggle navigation menu" />
         <label
           className="menu-icon"
           htmlFor="menu-btn"
@@ -46,11 +44,6 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {viewExperience && (
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
-          )}
           {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
@@ -58,17 +51,17 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
-          {viewBlog && (
+          {viewExperience && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewTalks && (
+          {viewPublications && (
             <li>
-              <a href="#talks">Talks</a>
+              <a href="#publications">Publications</a>
             </li>
           )}
           {viewResume && (

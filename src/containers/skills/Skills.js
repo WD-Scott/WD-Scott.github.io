@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import FadeIn from "../../components/fadeIn/FadeIn";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
@@ -15,15 +15,15 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
-        <Fade left duration={1000}>
+        <FadeIn direction="left">
           <div className="skills-image-div">
             <img
               alt="ML Lifecycle"
               src={require("../../assets/images/mlcycle.png")}
             ></img>
           </div>
-        </Fade>
-        <Fade right duration={1000}>
+        </FadeIn>
+        <FadeIn direction="right">
           <div className="skills-text-div">
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
@@ -57,7 +57,7 @@ export default function Skills() {
               })}
             </div>
           </div>
-        </Fade>
+        </FadeIn>
       </div>
     </div>
   );

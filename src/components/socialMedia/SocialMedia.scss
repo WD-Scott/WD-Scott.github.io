@@ -69,17 +69,50 @@
 }
 
 /* Hover Transition */
-.twitter i:hover,
-.google i:hover,
-.gitlab i:hover,
-.github i:hover,
-.linkedin i:hover,
-.facebook i:hover,
-.instagram i:hover,
-.stack-overflow i:hover,
-.kaggle i:hover,
+.icon-button i:hover {
+  transform: scale(1.1);
+}
+
+.github i:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.linkedin i:hover {
+  background-color: #0a66c2;
+}
+
+.google i:hover {
+  background-color: #d93025;
+}
+
+.twitter i:hover {
+  background-color: #1a8cd8;
+}
+
+.facebook i:hover {
+  background-color: #1877f2;
+}
+
+.gitlab i:hover {
+  background-color: #fc6d26;
+}
+
+.instagram i:hover {
+  background-color: #e1306c;
+}
+
+.stack-overflow i:hover {
+  background-color: #f58025;
+}
+
+.kaggle i:hover {
+  background-color: #20beff;
+}
+
 .medium i:hover {
-  background-color: $textColor;
+  background-color: #fff;
+  color: #333;
 }
 
 /* Media Query */

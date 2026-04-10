@@ -61,11 +61,10 @@
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700;
   padding: 0 10px;
+  color: #ffffff;
 }
 
 /* menu */

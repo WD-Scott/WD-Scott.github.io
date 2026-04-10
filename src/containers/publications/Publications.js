@@ -1,17 +1,18 @@
 import React, {useContext} from "react";
-import "./Achievement.scss";
-import AchievementCard from "../../components/achievementCard/AchievementCard";
-import {achievementSection} from "../../portfolio";
+import "./Publications.scss";
+import PublicationCard from "../../components/publicationCard/PublicationCard";
+import {publicationsSection} from "../../portfolio";
 import FadeIn from "../../components/fadeIn/FadeIn";
 import StyleContext from "../../contexts/StyleContext";
-export default function Achievement() {
+
+export default function Publications() {
   const {isDark} = useContext(StyleContext);
-  if (!achievementSection.display) {
+  if (!publicationsSection.display) {
     return null;
   }
   return (
     <FadeIn>
-      <div className="main" id="projects">
+      <div className="main" id="publications">
         <div className="achievement-main-div">
           <div className="achievement-header">
             <h1
@@ -21,7 +22,7 @@ export default function Achievement() {
                   : "heading achievement-heading"
               }
             >
-              {achievementSection.title}
+              {publicationsSection.title}
             </h1>
             <p
               className={
@@ -30,22 +31,16 @@ export default function Achievement() {
                   : "subTitle achievement-subtitle"
               }
             >
-              {achievementSection.subtitle}
+              {publicationsSection.subtitle}
             </p>
           </div>
-          <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card, i) => {
+          <div className="publications-list">
+            {publicationsSection.publications.map((card, i) => {
               return (
-                <AchievementCard
+                <PublicationCard
                   key={i}
                   isDark={isDark}
-                  cardInfo={{
-                    title: card.title,
-                    description: card.subtitle,
-                    image: card.image,
-                    imageAlt: card.imageAlt,
-                    footer: card.footerLink
-                  }}
+                  publication={card}
                 />
               );
             })}

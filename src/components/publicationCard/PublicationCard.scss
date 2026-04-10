@@ -1,0 +1,76 @@
+@import "../../_globalColor";
+
+.publication-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $lightBackground2;
+  border-left: 3px solid $progressBarSpanBG;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  transition: all 0.3s ease;
+}
+.publication-card:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+.dark-mode.publication-card {
+  background-color: $darkBackground;
+}
+.dark-mode.publication-card:hover {
+  box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
+}
+
+.publication-card-body {
+  flex: 1;
+  text-align: left;
+}
+.publication-card-title {
+  color: $titleColor;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 0.35rem 0;
+}
+.publication-card-venue {
+  color: $subTitle;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.publication-card-links {
+  flex-shrink: 0;
+  margin-left: 1.5rem;
+}
+.publication-card-link {
+  background: $buttonColor;
+  color: $textColorDark;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5;
+  padding: 0 0.75em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+}
+a.publication-card-link:hover {
+  background: $buttonHover;
+  color: $lightBackground1 !important;
+}
+
+@media (max-width: 768px) {
+  .publication-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .publication-card-links {
+    margin-left: 0;
+    margin-top: 0.75rem;
+  }
+}

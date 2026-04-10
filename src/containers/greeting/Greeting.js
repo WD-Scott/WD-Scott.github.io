@@ -1,5 +1,5 @@
-import React, {useContext} from "react";
-import {Fade} from "react-reveal";
+import React, {useContext, useState, useEffect} from "react";
+import FadeIn from "../../components/fadeIn/FadeIn";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
@@ -11,11 +11,20 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const [avatarUrl, setAvatarUrl] = useState(null);
+
+  useEffect(() => {
+    fetch("/profile.json")
+      .then(res => (res.ok ? res.json() : Promise.reject(res)))
+      .then(data => setAvatarUrl(data.data.user.avatarUrl))
+      .catch(() => setAvatarUrl(null));
+  }, []);
+
   if (!greeting.displayGreeting) {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="40px">
+    <FadeIn distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
@@ -55,12 +64,12 @@ export default function Greeting() {
             ) : (
               <img
                 alt="headshot"
-                src={require("../../assets/images/headshot.png")}
+                src={avatarUrl || require("../../assets/images/headshot.png")}
               ></img>
             )}
           </div>
         </div>
       </div>
-    </Fade>
+    </FadeIn>
   );
 }

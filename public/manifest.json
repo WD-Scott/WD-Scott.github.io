@@ -1,6 +1,6 @@
 {
-  "short_name": "DeveloperFolio",
-  "name": "DeveloperFolio",
+  "short_name": "Wyatt Scott",
+  "name": "Wyatt Scott Portfolio",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#6c63ff",
-  "background_color": "#ffffff"
+  "theme_color": "#00d4aa",
+  "background_color": "#0a192f"
 }

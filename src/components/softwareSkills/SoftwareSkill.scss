@@ -29,3 +29,18 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.skill-image {
+  width: 3rem;
+  height: 3rem;
+  // flatten to uniform gray, then shift to match $subTitle #8892b0
+  filter: grayscale(1) brightness(0.45) invert(61%) sepia(9%) saturate(814%) hue-rotate(182deg) brightness(91%) contrast(88%);
+  transition: all 0.3s ease;
+}
+.software-skill-inline:hover > .skill-image {
+  // match $skillsColor #00d4aa
+  filter: invert(67%) sepia(85%) saturate(382%) hue-rotate(119deg) brightness(95%) contrast(101%);
+}
+.software-skill-inline:hover > .skill-image ~ p {
+  color: $skillsColor;
+}

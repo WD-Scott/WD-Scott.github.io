@@ -5,7 +5,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 
 // Splash Screen
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
@@ -17,9 +17,9 @@ const illustration = {
 
 const greeting = {
   username: "Wyatt Scott",
-  title: "Hi there, I'm Wyatt...",
+  title: "Hi, I'm Wyatt",
   subTitle:
-    "I'm a Data Scientist passionate about deep learning, automation, and geopolitics, among myriad other things.",
+    "ML Engineer and model developer building NLP and LLM systems. Currently at S&P Global.",
   resumeLink:
     "https://drive.google.com/file/d/1AXgGh33CQqiEeE3HVvmp57UpFdl626fb/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -38,12 +38,12 @@ const socialMediaLinks = {
 
 // Skills Section
 const skillsSection = {
-  title: "Tech Skills",
+  title: "What I Build",
   subTitle: "",
   skills: [
-    "- Develop interactive Front end / User Interfaces for workflow automation tools and machinge learning models.",
-    "- Build, test, validate, and deploy predictive models.",
-    "- Review code and work in teams to achieve business outcomes."
+    "- Fine-tune and deploy large language models for text generation, classification, and retrieval-augmented generation (RAG).",
+    "- Build end-to-end ML pipelines: data processing, distributed training, evaluation, and production serving with containerized microservices.",
+    "- Design NLP systems using transformer architectures, with experience spanning sequence modeling, attention mechanisms, and prompt engineering."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -54,32 +54,52 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "R",
-      fontAwesomeClassname: "fa fa-registered"
+      skillName: "PyTorch",
+      imageSrc: "pytorch-icon.svg"
     },
     {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
+      skillName: "Hugging Face",
+      imageSrc: "huggingface-icon.svg"
     },
     {
-      skillName: "GitHub",
-      fontAwesomeClassname: "fab fa-github"
+      skillName: "TensorFlow",
+      imageSrc: "tensorflow-icon.svg"
     },
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
       skillName: "Snowflake",
       fontAwesomeClassname: "fas fa-snowflake"
+    },
+    {
+      skillName: "scikit-learn",
+      imageSrc: "scikit-learn-icon.svg"
+    },
+    {
+      skillName: "Pandas",
+      imageSrc: "pandas-icon.svg"
+    },
+    {
+      skillName: "NumPy",
+      imageSrc: "numpy-icon.svg"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -100,34 +120,8 @@ const educationInfo = {
       subHeader: "B.S. | Government, Law, and National Security",
       duration: "September 2014 - May 2018",
       desc: "GPA: 3.96"
-    },
-    {
-      schoolName: "American University",
-      subHeader: "B.S. (minor) | U.S. Foreign Policy",
-      duration: "January 2017 - May 2017",
-      desc: "GPA: 3.96"
     }
   ]
-};
-
-// Your top 3 proficient stacks/tech experience
-const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "", //Insert stack or technology you have experience in
-      progressPercentage: "" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "",
-      progressPercentage: ""
-    },
-    {
-      Stack: "",
-      progressPercentage: ""
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges; change username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -135,66 +129,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Lead Editor",
-      company: "S&P Global \n\n Market Intelligence",
-      date: "July 2023 – Present",
+      role: "Sr. Analyst (Quantitative Modeling)",
+      company: "S&P Global \n\n Ratings",
+      date: "Nov. 2024 – Present",
       descBullets: [
-        "Develop Python code and GUIs to automate repetitive tasks.",
-        "Contributing author — S&P Global’s Daily Update.",
-        "Support 70 analysts and over 1,500 deliverables each year."
+        "Build and validate quantitative models for credit risk analysis using Python and statistical methods.",
+        "Develop internal tools and dashboards that surface model outputs to analysts and stakeholders.",
+        "Author technical specifications and model documentation to ensure reproducibility and regulatory compliance."
       ]
     },
     {
-      role: "Research Editor",
+      role: "Lead Editor & Automation Engineer",
       company: "S&P Global \n\n Market Intelligence",
-      date: "March 2022 – June 2023",
+      date: "March 2022 – Oct. 2024",
       descBullets: [
-        "Managed multiple, simultaneous editorial and research workflows.",
-        "Analyzed and reviewed data and forecasts for client-facing content."
+        "Built Python automation tools and GUIs that eliminated manual workflows, saving 100+ analyst hours per quarter.",
+        "Managed data pipelines and editorial workflows supporting 70 analysts and 1,500+ annual deliverables."
       ]
     },
     {
-      role: "Graduate TA and Grader",
+      role: "Graduate Teaching Assistant",
       company: "UVA School of \n\n Data Science",
       date: "May 2024 – Aug. 2024",
       descBullets: [
-        "Supported graduate students with coding assignments.",
-        "Evaluated and graded lab reports."
-      ]
-    },
-    {
-      role: "Nonresident Fellow",
-      company: "Center for \n\n Climate & Security",
-      date: "March 2022 – July 2022",
-      descBullets: [
-        "Co-wrote a report on climate change, security, and NATO.",
-        "Built bespoke datasets to meet client needs."
-      ]
-    },
-    {
-      role: "Senior Research Associate",
-      company: "New America \n\n Resource Security",
-      date: "June 2021 – Feb. 2022",
-      descBullets: [
-        "Managed and led a scenario-based project in collaboration with DARPA’s World Modelers Program to test a conflict causality model, CauseMos."
-      ]
-    },
-    {
-      role: "Research Associate",
-      company: "New America \n\n Resource Security",
-      date: "June 2019 – May 2021",
-      descBullets: [
-        "Developed a multivariate index measuring the U.S. and China’s global influence.",
-        "Collected and analyzed national security and commodities data."
-      ]
-    },
-    {
-      role: "Research Assistant",
-      company: "New America \n\n Resource Security",
-      date: "June 2018 – May 2019",
-      descBullets: [
-        "Provided research support and planned events.",
-        "Wrote articles on commodities trade and U.S.-China competition."
+        "Mentored graduate students on machine learning implementations, statistical modeling, and Python programming.",
+        "Evaluated technical assignments covering supervised/unsupervised learning, deep learning, and data engineering."
       ]
     }
   ]
@@ -208,126 +167,25 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "",
-  projects: [
-    {
-      //image: require(""),
-      projectName: "",
-      projectDesc: "",
-      footerLink: [
-        {
-          name: "",
-          url: ""
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      //image: require(""),
-      projectName: "",
-      projectDesc: "",
-      footerLink: [
-        {
-          name: "",
-          url: ""
-        }
-      ]
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
 // Achievement Section
 const achievementSection = {
-  title: "Achievements And Certifications",
-  subtitle: "",
+  title: "Featured Projects",
+  subtitle: "Select ML and NLP projects. More on GitHub.",
 
   achievementsCards: [
-    {
-      title: "Associate Data Scientist",
-      subtitle:
-        "Demonstrated proficiency in data management, EDA, modeling, programming, statistical experimentation, and communication and visualization.",
-      image: require("./assets/images/dcamp.png"),
-      imageAlt: "DataCamp",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://www.datacamp.com/certificate/DSA0019507682420"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/1V1-xr6Im8qJUkdWcp3ogzHupILAfZJ-J/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      title: "Dean's Scholar Award",
-      subtitle:
-        "Recognized for a high level of academic achievement, community engagement, and potential contribution to my academic field of study.",
-      image: require("./assets/images/au_square.png"),
-      imageAlt: "American University",
-      footerLink: [
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/1U-AD-RWpB9TPrBuz0Co9g56Ubo4diw5N/view?usp=sharing"
-        },
-        {
-          name: "American University",
-          url: "https://www.american.edu/"
-        }
-      ]
-    }
+    // Add project cards here as projects are completed. Example:
+    // {
+    //   title: "Project Name",
+    //   subtitle: "Brief description: what it does, techniques used, results. 2-3 sentences.",
+    //   image: require("./assets/images/project-thumb.png"),
+    //   imageAlt: "Project screenshot",
+    //   footerLink: [
+    //     { name: "GitHub", url: "https://github.com/WD-Scott/repo" },
+    //     { name: "Live Demo", url: "https://..." }
+    //   ]
+    // }
   ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Blogs Section
-const blogSection = {
-  title: "Blogs",
-  subtitle: "",
-  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "",
-      title: "",
-      description: ""
-    },
-    {
-      url: "",
-      title: "",
-      description: ""
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-const talkSection = {
-  title: "TALKS",
-  subtitle: "",
-
-  talks: [
-    {
-      title: "",
-      subtitle: "C",
-      slides_url: "",
-      event_url: ""
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-const podcastSection = {
-  title: "Podcast",
-  subtitle: "",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [""],
-  display: false // Set false to hide this section, defaults to true
+  display: false // Set true once 2-3 projects are ready to showcase
 };
 
 // Resume Section
@@ -339,16 +197,83 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-const contactInfo = {
-  title: "Contact:",
-  number: "(484) 925-8722",
-  email_address: "wyatt.d.scott28@gmail.com"
+// Publications Section
+const publicationsSection = {
+  title: "Publications & Writing",
+  subtitle: "",
+  display: true,
+  publications: [
+    {
+      title:
+        "Words of War: Exploring the Presidential Rhetorical Arsenal with Deep Learning.",
+      subtitle: "Arxiv, Computer Science — Machine Learning (12 December 2024).",
+      image: "",
+      imageAlt: "",
+      footerLink: [
+        {
+          name: "Read on Arxiv",
+          url: "https://arxiv.org/abs/2412.08868#"
+        }
+      ]
+    },
+    {
+      title: "Power of AI - Tech and Commodities.",
+      subtitle: "S&P Global's Daily Update (22 November 2023).",
+      image: "",
+      imageAlt: "",
+      footerLink: [
+        {
+          name: "Read on LinkedIn",
+          url: "https://www.linkedin.com/pulse/daily-update-power-ai-tech-commodities-spglobal-4bmmc?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3B%2FqRFgWhYQlyMlDNqmhd9%2Fg%3D%3D"
+        }
+      ]
+    },
+    {
+      title: "Sourcing Battery Metals Amid the Energy Transition.",
+      subtitle: "S&P Global's Daily Update (3 April 2023).",
+      image: "",
+      imageAlt: "",
+      footerLink: [
+        {
+          name: "Read on LinkedIn",
+          url: "https://www.linkedin.com/pulse/daily-update-sourcing-battery-metals-amid-energy-transition/"
+        }
+      ]
+    },
+    {
+      title:
+        "The U.S. Fight Against Climate Change Has to Start at Its Center: The Midwest.",
+      subtitle: "Slate Magazine (18 February 2021).",
+      image: "",
+      imageAlt: "",
+      footerLink: [
+        {
+          name: "Read on Slate",
+          url: "https://slate.com/technology/2020/11/climate-change-midwest-agriculture-emissions.html"
+        }
+      ]
+    },
+    {
+      title:
+        "Great Power Resource Competition in a Changing Climate: New America's Natural Security Index",
+      subtitle: "New America (23 October 2019).",
+      image: "",
+      imageAlt: "",
+      footerLink: [
+        {
+          name: "Read on New America",
+          url: "https://www.newamerica.org/resource-security/reports/great-power-resource-competition-changing-climate/"
+        }
+      ]
+    }
+  ]
 };
 
-// Twitter Section
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+const contactInfo = {
+  title: "Let's Connect",
+  subtitle:
+    "Open to ML Engineering and NLP/LLM roles. Always happy to discuss interesting problems in AI.",
+  email_address: "wyatt.d.scott28@gmail.com"
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -360,16 +285,11 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
   openSource,
-  bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
+  publicationsSection,
   contactInfo,
-  twitterDetails,
   isHireable,
   resumeSection
 };
