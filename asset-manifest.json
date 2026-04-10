@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.323c8658.css",
-    "main.js": "/static/js/main.4e2a408b.js",
+    "main.js": "/static/js/main.c09b8f27.js",
     "static/css/487.bbc8e54c.chunk.css": "/static/css/487.bbc8e54c.chunk.css",
     "static/js/487.c29be88d.chunk.js": "/static/js/487.c29be88d.chunk.js",
     "static/css/990.7a7feafb.chunk.css": "/static/css/990.7a7feafb.chunk.css",
@@ -10,9 +10,9 @@
     "static/media/headshot.png": "/static/media/headshot.48da5b38b84d6f52fbdd.png",
     "static/media/mlcycle.png": "/static/media/mlcycle.30d8d4c4d1b55c3301e6.png",
     "static/media/UVA.png": "/static/media/UVA.39111a48acf5b7c3599f.png",
-    "static/media/resume.pdf": "/static/media/resume.35a2686f6814c7d724dd.pdf",
     "static/media/au_square.png": "/static/media/au_square.8b57d7608785cab336ba.png",
     "static/media/dcamp.png": "/static/media/dcamp.273c90d02b16a1fb23c2.png",
+    "static/media/resume.pdf": "/static/media/resume.7ff6c1c4365cce618964.pdf",
     "static/media/scikit-learn-icon.svg": "/static/media/scikit-learn-icon.8ca65bdb8171b4ca2512.svg",
     "index.html": "/index.html",
     "static/media/numpy-icon.svg": "/static/media/numpy-icon.1f15756a0bf80bc95c8a.svg",
@@ -21,7 +21,7 @@
     "static/media/pytorch-icon.svg": "/static/media/pytorch-icon.31616ee4fea079fefe08.svg",
     "static/media/pandas-icon.svg": "/static/media/pandas-icon.b0e8f2ff20a241154478.svg",
     "main.323c8658.css.map": "/static/css/main.323c8658.css.map",
-    "main.4e2a408b.js.map": "/static/js/main.4e2a408b.js.map",
+    "main.c09b8f27.js.map": "/static/js/main.c09b8f27.js.map",
     "487.bbc8e54c.chunk.css.map": "/static/css/487.bbc8e54c.chunk.css.map",
     "487.c29be88d.chunk.js.map": "/static/js/487.c29be88d.chunk.js.map",
     "990.7a7feafb.chunk.css.map": "/static/css/990.7a7feafb.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.323c8658.css",
-    "static/js/main.4e2a408b.js"
+    "static/js/main.c09b8f27.js"
   ]
 }
