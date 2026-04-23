@@ -21,7 +21,7 @@ const greeting = {
   subTitle:
     "ML Engineer and model developer building NLP and LLM systems. Currently at S&P Global.",
   resumeLink:
-    "https://drive.google.com/file/d/1AXgGh33CQqiEeE3HVvmp57UpFdl626fb/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1AXgGh33CQqiEeE3HVvmp57UpFdl626fb/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -41,13 +41,11 @@ const skillsSection = {
   title: "What I Build",
   subTitle: "",
   skills: [
-    "- Fine-tune and deploy large language models for text generation, classification, and retrieval-augmented generation (RAG).",
-    "- Build end-to-end ML pipelines: data processing, distributed training, evaluation, and production serving with containerized microservices.",
+    "- Build end-to-end testing and validation pipelines for high-risk financial models.",
+    "- Develop ML pipelines: data processing, distributed training, evaluation, and production serving with containerized microservices.",
     "- Design NLP systems using transformer architectures, with experience spanning sequence modeling, attention mechanisms, and prompt engineering."
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Python",
